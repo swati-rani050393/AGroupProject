@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splashbackground"
+    tools:context=".SplashActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/splashImage"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="3dp"
+        android:src="@drawable/splashimage">
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="MyApp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version: 1.0"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        />
+
+</LinearLayout>

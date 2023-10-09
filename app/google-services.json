@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24148427988",
+    "project_id": "lgroupproject",
+    "storage_bucket": "lgroupproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24148427988:android:4b9402b58bb3bf39e76741",
+        "android_client_info": {
+          "package_name": "com.example.lgroupproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZahACb3BEd-HunGw2Vx8ftrL8v-Wcegg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
